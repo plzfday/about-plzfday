@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    min-width: auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    padding-top: 3%;
+    font-family: 'Roboto', 'Jua', 'sans-serif';
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3, h4, h5 {
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #efefef;
+    padding: 16px 8px;
+    
+}
+body > nav > a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.row-right-figure {
+    float: right;
+    height: 100%;
+    width: auto;
+}
+
+body > div > div.row-right-figure {
+    width: auto;
+    height: auto;
+}
+
+.row {
+    display: inline-block;
+    width: 50%;
+    margin: 0px;
+}
