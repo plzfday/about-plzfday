@@ -1,31 +1,56 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     margin: 0px;
     min-width: auto;
     box-sizing: border-box;
 }
 
+article,
+figcaption,
+figure,
+nav {
+    display: block;
+}
+
+a {
+    color: rgb(56, 54, 184);
+}
+
+a:hover {
+    color: green;
+}
+
 .container {
     width: 70%;
     padding-top: 3%;
-    font-family: 'Roboto', 'Jua', 'sans-serif';
+    font-family: 'Varela Round', 'Nanum Gothic', sans-serif;
     margin-left: auto;
     margin-right: auto;
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
     margin: 0px;
     font-size: 1.5rem;
 }
 
-nav {
+nav {   
     background-color: #efefef;
     padding: 16px 8px;
-    
+    font-family: 'Pacifico', cursive;
 }
-body > nav > a {
+
+body>nav>a {
     font-size: 1.5rem;
     text-decoration: none;
     color: cornflowerblue;
+    padding-left: 5%;
 }
 
 .row-right-figure {
@@ -34,13 +59,59 @@ body > nav > a {
     width: auto;
 }
 
-body > div > div.row-right-figure {
-    width: auto;
-    height: auto;
-}
-
 .row {
     display: inline-block;
-    width: 50%;
+    width: 75%;
     margin: 0px;
+}
+
+body>div>div>div.row-right-figure>figure:nth-child(n)>a>img {
+    width: 180px;
+    height: 180px;
+}
+
+body>div>div>div.row-right-figure>figure:nth-child(n)>figcaption {
+    text-align: center;
+    color: rgb(222, 97, 247);
+}
+
+body>div>footer {
+    border-top: 1px solid #333333a6;
+    border-bottom: 1px solid #333333a6;
+}
+
+body>div>footer>div.footer-row {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+body>div>footer>div.footer-row>div.footerLeft {
+    margin: auto 0px;
+    font-size: 250%;
+    width: 33%;
+    padding: 10px;
+}
+
+body>div>footer>div.footer-row>div.footerMiddle {
+    margin: auto 0px;
+    width: 40%;
+    padding: 10px;
+}
+
+body>div>footer>div>div.footerMiddle>img {
+    width: 100%;
+}
+
+body>div>footer>div.footer-row>div.footerRight {
+    margin: auto 0px;
+    width: 33%;
+    padding: 10px;
+}
+
+body>div>div.copyright>h5 {
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
