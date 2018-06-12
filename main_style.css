@@ -18,7 +18,8 @@ nav {
 }
 
 a {
-    color: rgb(56, 54, 184);
+    text-decoration: none;
+    color: #007bff;
 }
 
 a:hover {
@@ -72,7 +73,7 @@ body>div>div>div.row-right-figure>figure:nth-child(n)>a>img {
 
 body>div>div>div.row-right-figure>figure:nth-child(n)>figcaption {
     text-align: center;
-    color: rgb(222, 97, 247);
+    color: #007bff;
 }
 
 body>div>footer {
@@ -89,7 +90,7 @@ body>div>footer>div.footer-row {
 
 body>div>footer>div.footer-row>div.footerLeft {
     margin: auto 0px;
-    font-size: 250%;
+    font-size: 150%;
     width: 33%;
     padding: 10px;
 }
